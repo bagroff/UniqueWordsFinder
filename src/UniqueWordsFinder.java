@@ -7,7 +7,7 @@ import java.util.HashSet;
             HashSet<String> uniqueWords = new HashSet<>();
 
             // Splitting a string into words using spaces and punctuation
-            String[] words = text.toLowerCase().split("[\\s.,;?!]+");
+            String[] words = text.toLowerCase().split("[\\s.,;?!']+");
 
             // Adding unique words into HashSet
             for (String word : words) {
